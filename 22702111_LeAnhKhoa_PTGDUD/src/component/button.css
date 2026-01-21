@@ -1,0 +1,38 @@
+/* src/components/Button.css */
+
+/* Style chung cho tất cả các nút */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px; /* Cách nhau ra một chút */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu mượt */
+  }
+  
+  /* 1. Loại Primary (Màu xanh dương) */
+  .btn-primary {
+    background-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3; /* Đậm hơn khi hover */
+  }
+  
+  /* 2. Loại Danger (Màu đỏ) */
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  .btn-danger:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* 3. Loại Success (Màu xanh lá) */
+  .btn-success {
+    background-color: #28a745;
+  }
+  .btn-success:hover {
+    background-color: #1e7e34;
+  }
