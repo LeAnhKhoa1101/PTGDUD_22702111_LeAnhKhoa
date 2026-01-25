@@ -1,0 +1,100 @@
+.alert-wrapper {
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+
+/* Style cho các nút bấm điều khiển */
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-trigger {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-trigger.success {
+    background-color: #28a745;
+}
+
+.btn-trigger.warning {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn-trigger.error {
+    background-color: #dc3545;
+}
+
+
+/* --- Phần Alert Box --- */
+
+.alert-box {
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* Đẩy chữ sang trái, nút đóng sang phải */
+    align-items: center;
+    /* Hiệu ứng Fade In (Yêu cầu bài tập) */
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+/* Định nghĩa Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Các biến thể màu sắc (Dynamic Class) */
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+
+/* Nút đóng (x) */
+
+.close-btn {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.close-btn:hover {
+    opacity: 1;
+}

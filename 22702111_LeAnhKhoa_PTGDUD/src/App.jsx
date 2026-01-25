@@ -1,5 +1,7 @@
 import ProductCard from "./component/ProductCard"
 import Button from "./component/button"
+import Alert from "./component/alert"
+import LoginForm from "./component/LoginForm"
 function App() {
   return (
     <div style={{ padding: '20px' }}>
@@ -18,6 +20,10 @@ function App() {
         {/* Truyền type="success" -> Nút màu xanh lá */}
         <Button type="success">Thành công</Button>
       </div>
+      <h1>Bài 3: Alert</h1>
+      <Alert/>
+      <h1>Bài 4: Login form</h1>
+      <LoginForm/>
     </div>
   )
 }
