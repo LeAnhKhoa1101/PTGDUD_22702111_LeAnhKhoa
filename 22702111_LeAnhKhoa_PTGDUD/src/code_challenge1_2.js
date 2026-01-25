@@ -15,8 +15,8 @@ const BMIJohn = massJohn / heightJohn ** 2;
 console.log("BMI của Mark:", BMIMark);
 console.log("BMI của John:", BMIJohn);
 
-// 3. Tạo biến Boolean so sánh
-const markHigherBMI = BMIMark > BMIJohn;
-
-// Kết quả
-console.log("Mark có BMI cao hơn John không?", markHigherBMI);
+if (BMIJohn > BMIMark) {
+    console.log(`BMI cua John (${BMIJohn}) cao hon BMI cua Mark (${BMIMark})`);
+} else {
+    console.log(`BMI cua Mark (${BMIMark}) cao hon BMI cua John (${BMIJohn})`);
+}
