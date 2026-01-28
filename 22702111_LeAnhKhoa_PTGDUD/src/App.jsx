@@ -1,7 +1,11 @@
-import ProductCard from "./component/ProductCard"
-import Button from "./component/button"
-import Alert from "./component/alert"
-import LoginForm from "./component/LoginForm"
+import ProductCard from "./component/Buoi1/ProductCard"
+import Button from "./component/Buoi1/button"
+import Alert from "./component/Buoi1/alert"
+import LoginForm from "./component/Buoi1/LoginForm"
+import ProductList from "./component/Buoi1/ProductList"
+import header from "./component/Buoi1/Buoi2/header"
+import footer from "./component/Buoi1/Buoi2/footer"
+import StudentInfo from "./component/Buoi1/Buoi2/StudentInfo"
 function App() {
   return (
     <div style={{ padding: '20px' }}>
@@ -20,12 +24,35 @@ function App() {
         {/* Truyền type="success" -> Nút màu xanh lá */}
         <Button type="success">Thành công</Button>
       </div>
-      <h1>Bài 3: Alert</h1>
       <Alert/>
       <h1>Bài 4: Login form</h1>
       <LoginForm/>
+      <h1>Bai 5: Reponsive layout</h1>
+      <ProductList/>
+      <h1>Buoi 2 - Bai 1:</h1>
+      <header/>
+      <h2 style={{textAlign: 'center'}}>Danh sach lop hoc</h2>
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        gap: '20px',
+        flexWrap: 'wrap'
+      }}>
+        <StudentInfo
+          name = "Nguyen Van A"
+          id = "SV01"
+          className = "DHCNTT1C"
+        />
+        <StudentInfo
+          name = "Le Thi C"
+          id = "SV02"
+          className = "DHCNTT3A"
+        />
+      </div>
+      <footer/>
     </div>
   )
+  
 }
 
 export default App
