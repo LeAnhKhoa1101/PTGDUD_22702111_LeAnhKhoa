@@ -1,11 +1,12 @@
-import ProductCard from "./component/Buoi1/ProductCard"
-import Button from "./component/Buoi1/button"
-import Alert from "./component/Buoi1/alert"
-import LoginForm from "./component/Buoi1/LoginForm"
-import ProductList from "./component/Buoi1/ProductList"
-import header from "./component/Buoi1/Buoi2/header"
-import footer from "./component/Buoi1/Buoi2/footer"
-import StudentInfo from "./component/Buoi1/Buoi2/StudentInfo"
+import ProductCard from "./component/Buoi1/Bai1/ProductCard"
+import Button from "./component/Buoi1/Bai2/button"
+import Alert from "./component/Buoi1/Bai3/alert"
+import LoginForm from "./component/Buoi1/Bai4/LoginForm"
+import ProductList from "./component/Buoi1/Bai5/ProductList"
+import header from "./component/Buoi2/Bai1/header"
+import footer from "./component/Buoi2/Bai1/footer"
+import StudentInfo from "./component/Buoi2/Bai1/StudentInfo"
+import Counter from "./component/Buoi2/Bai2/counter"
 function App() {
   return (
     <div style={{ padding: '20px' }}>
@@ -50,6 +51,8 @@ function App() {
         />
       </div>
       <footer/>
+      <h1>Bài 2</h1>
+      <Counter/>
     </div>
   )
   

@@ -1,4 +1,4 @@
-import './ProductCard.css'; 
+import  'C:/PTGDUD_22702111_LeAnhKhoa/22702111_LeAnhKhoa_PTGDUD/src/component/Buoi1/Bai1/ProductCard.css'
 
 const ProductCard = () => {
   return (

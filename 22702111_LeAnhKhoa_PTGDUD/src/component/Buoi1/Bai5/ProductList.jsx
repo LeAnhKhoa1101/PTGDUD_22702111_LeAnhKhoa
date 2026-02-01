@@ -1,5 +1,5 @@
-import ProductCard from "./ProductCard";
-import 'T:/PTGDUD_22702111_LeAnhKhoa/22702111_LeAnhKhoa_PTGDUD/src/component/Buoi1/ProductList.css'
+import ProductCard from 'C:/PTGDUD_22702111_LeAnhKhoa/22702111_LeAnhKhoa_PTGDUD/src/component/Buoi1/Bai1/ProductCard.jsx'
+import 'C:/PTGDUD_22702111_LeAnhKhoa/22702111_LeAnhKhoa_PTGDUD/src/component/Buoi1/Bai5/ProductList.css'
 const ProductList = () => {
     const pro = [1,2,3,4,5,6];
     return (

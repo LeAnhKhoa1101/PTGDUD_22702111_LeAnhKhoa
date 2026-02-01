@@ -1,0 +1,58 @@
+.counter-container {
+    text-align: center;
+    border: 2px solid #333;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.count-number {
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: transform 0.1s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    /* Hiệu ứng nhấn xuống */
+}
+
+.btn-dec {
+    background-color: #ffc107;
+    color: #333;
+}
+
+
+/* Vàng */
+
+.btn-reset {
+    background-color: #dc3545;
+}
+
+
+/* Đỏ */
+
+.btn-inc {
+    background-color: #28a745;
+}
+
+
+/* Xanh lá */
